@@ -1,0 +1,104 @@
+/* === GENERAL === */
+body {
+  background-color: #a8c7a0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.imagen {
+  display: block;
+  margin: 0 auto;
+}
+
+/* === TÍTULOS === */
+.titulo, .subtitulo {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.titulo:hover, .subtitulo:hover {
+  transform: translateY(-10px) scale(1.1);
+}
+
+/* === TARJETA DE BIOGRAFÍA === */
+.bio-card {
+  background-color: #9BCB89;
+  border-radius: 40px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* === PIE DE PÁGINA === */
+.pie, .piepagina {
+  text-align: center;
+}
+
+/* === ANIMACIÓN CAMBIO DE COLOR DE TEXTO === */
+.cambios {
+  animation: colores 3s infinite;
+}
+
+@keyframes colores {
+  0% { color: #a8c7a0; }
+  25% { color: #6e9d5d; }
+  50% { color: #3e5f3c; }
+  75% { color: #6e9d5d; }
+  100% { color: #a8c7a0; }
+}
+
+/* === GALERÍA DE IMÁGENES === */
+.galeria {
+  display: flex;
+  justify-content: center;
+}
+
+.galeria .item {
+  text-align: center;
+  width: 200px;
+  margin: 8px;
+}
+
+.galeria .item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+/* === BOTÓN DE ENVÍO === */
+.envio {
+  animation: envio 9s infinite;
+}
+
+.botton {
+  text-align: center;
+  margin: 20px;
+}
+
+@keyframes envio {
+  0% { color: #a8c7a0; }
+  25% { color: #6e9d5d; }
+  50% { color: #3e5f3c; }
+  75% { color: #6e9d5d; }
+  100% { color: #a8c7a0; }
+}
+
+/* === PELÍCULAS (p1 a p4) === */
+.p1, .p2, .p3, .p4 {
+  background-color: #6e9d5d;
+  border-radius: 40px;
+}
+
+.p1 { max-width: 190px; }
+.p2 { max-width: 125px; }
+.p3 { max-width: 60px; }
+.p4 { max-width: 70px; }
+
+/* === LISTAS === */
+li:hover {
+  color: #3f6639;
+  font-weight: bold;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
