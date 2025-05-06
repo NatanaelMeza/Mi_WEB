@@ -104,9 +104,5 @@ li:hover {
 }
 
 .botton{
-  background-color: #9BCB89;
   border-radius: 40px;
-  max-width: 400px;
-  margin: 20px auto;
-  text-align: center;
 }
