@@ -93,8 +93,3 @@ li:hover {
   transition: all 0.3s;
 }
 
-.envio{
-    border-radius: 50px;
-    display: flex;
-  justify-content: center;
-}
