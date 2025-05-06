@@ -95,4 +95,6 @@ li:hover {
 
 .envio{
     border-radius: 50px;
+    display: flex;
+  justify-content: center;
 }
