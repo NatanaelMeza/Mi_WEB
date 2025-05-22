@@ -1,6 +1,6 @@
 /* === GENERAL === */
 body {
-  background-color: #a8c7a0;
+  background-color: #bff5b1;
   font-family: 'Segoe UI', sans-serif;
 }
 
@@ -73,6 +73,7 @@ body {
 .p1, .p2, .p3, .p4 {
   background-color: #77b063;
   border-radius: 40px;
+  width: 200px;
 }
 
 .p1 { max-width: 190px; }
